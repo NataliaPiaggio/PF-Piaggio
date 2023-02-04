@@ -1,0 +1,272 @@
+/*General*/
+/*paleta de Colores
+#890705 bordo
+#172a38 (fondo)
+#53cbbf (resaltado)
+#f4f0e5 casi blanco
+*/
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color:#f4f0e5;
+  background-color: #172a38;
+}
+
+.main-index {
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+hr {
+    border: 2px solid #890705;
+    width: 80%;
+    margin-left: 10%
+}
+
+/*banner y barra de navegacion*/
+
+.banner {
+    grid-column: 1 /-1;
+    background-image: url('imagenes/banner1op.png');
+    background-size: cover;
+    background-position: bottom;
+    padding: 3rem;
+  }
+  
+.banner_title {
+    text-align: center;
+    color: #890705;
+    font-size: 10rem;
+    padding: 6rem;
+    text-shadow: 2px 3px #f4f0e5 ;
+}
+  
+.banner-subtitle {
+    font-size: 3rem;
+    color: #172a38;
+    text-align: center;
+    text-shadow: 1px 2px #f4f0e5 ;
+}
+
+ul {
+  background-color: #d4c9ad;
+  top: 0;
+  display:flex;
+  grid-column: 1 /-1;
+  margin-bottom: 4rem;
+
+}
+
+li {
+  flex:1;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  
+}
+
+li a {
+  display: block;
+  color: #172a38;
+  text-align: justify;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #f4f0e5;
+  color:#172a38;
+}
+
+.active {
+  background-color: #890705;
+  color: #d4c9ad;
+}
+
+/*IndeX*/
+
+.text {
+  grid-column: 2 / 3;
+  font-size: 1.8rem;
+  letter-spacing: 0.6px;
+  column-width: 25rem;
+  text-align: justify;
+}
+
+.first-paragraph::first-letter {
+  font-size: 6rem;
+  color: #890705;
+  float: left;
+  margin-right: 1rem;
+}
+
+.quote {
+  color: #53cbbf;
+  font-size: 2.4rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.quote::before {
+  content: '" ';
+}
+
+.quote::after {
+  content: ' "';
+}
+
+/*pestañas milonga/clase/indumentaria/orquesta*/
+.imagenes-publi{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8rem;
+  width: 70%;
+}
+.container-image {
+  position: relative;
+   
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #890705;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container-image:hover .overlay {
+  height: 100%;
+}
+
+.text-imagenes {
+  color: white;
+  font-size: 2.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: justify;
+}
+/*formulario*/
+
+form{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
+.input {
+  background-color: #d4c9ad;
+  margin: 1.5rem;
+  width: 30rem;
+  height: 3rem;
+}
+
+.titulo-pagina{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #890705;
+  font-size: 4rem;
+  text-shadow: 1px 2px #f4f0e5 ;
+  margin-bottom: 3rem;
+}
+h3{
+  text-decoration: underline;
+  font-family: 'Poppins', sans-serif;
+  margin: 2rem;
+  color:#d4c9ad;
+  
+}
+h2{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color:#d4c9ad ;
+  font-size: 3rem;
+  
+  margin: 2rem;
+}
+select{
+  background-color: #d4c9ad;
+  margin: 1.5rem;
+  width: 30rem;
+  height: 4rem;
+}
+.radio{
+  margin: 1rem;
+}
+
+.boton{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #f4f0e5;
+  font-size: 3rem;
+  background-color:#890705;
+  margin: 2rem;
+  width: 16rem;
+  border: none;
+  padding: 1rem;
+
+}
+
+.comentario{
+  margin: 2rem
+}
+
+.comentario{
+  color: #d4c9ad;
+}
+/*Footer*/
+
+.footer{
+  background-color: #d4c9ad;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color:#890705;
+}
+
+h6 {
+  flex:1;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  text-align: center;
+  
+}
+
+h6 a {
+  display: block;
+  color: #172a38;
+  text-align: justify;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h6 a:hover:not(.active) {
+  background-color: #890705;
+  color: #d4c9ad;}
