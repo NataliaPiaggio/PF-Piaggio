@@ -136,14 +136,11 @@ li a:hover:not(.active) {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 8rem;
-  width: 70%;
 }
 .container-image {
   position: relative;
    
 }
-
 
 .overlay {
   position: absolute;
