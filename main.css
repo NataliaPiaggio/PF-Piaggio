@@ -1,7 +1,7 @@
 /*General*/
 /*paleta de Colores
 #890705 bordo
-#172a38 (fondo)
+#172a38 / #0b151b (fondo)
 #53cbbf (resaltado)
 #f4f0e5 casi blanco
 */
@@ -19,7 +19,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   color:#f4f0e5;
-  background-color: #172a38;
+  background: #0b151b;
 }
 
 .main-index {
@@ -30,12 +30,6 @@ body {
 img {
   width: 100%;
   object-fit: cover;
-}
-
-hr {
-    border: 2px solid #890705;
-    width: 80%;
-    margin-left: 10%
 }
 
 /*banner y barra de navegacion*/
@@ -56,13 +50,6 @@ hr {
     text-shadow: 2px 3px #f4f0e5 ;
 }
   
-.banner-subtitle {
-    font-size: 3rem;
-    color: #172a38;
-    text-align: center;
-    text-shadow: 1px 2px #f4f0e5 ;
-}
-
 ul {
   background-color: #d4c9ad;
   top: 0;
@@ -240,7 +227,7 @@ select{
 /*Footer*/
 
 .footer{
-  background-color: #d4c9ad;
+  background-color: #172a38;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
@@ -258,7 +245,7 @@ h6 {
 
 h6 a {
   display: block;
-  color: #172a38;
+  color: #d4c9ad;
   text-align: justify;
   padding: 14px 16px;
   text-decoration: none;
@@ -266,4 +253,29 @@ h6 a {
 
 h6 a:hover:not(.active) {
   background-color: #890705;
-  color: #d4c9ad;}
+  color: #d4c9ad;
+}
+
+.fa {
+  font-size: 30px;
+ 
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    color: #d4c9ad;
+    transform: scale(1.4);
+}
+
+.fa-facebook {
+  color: #d4c9ad;
+  padding: 4rem;
+  
+}
+
+.fa-instagram {
+  color: #d4c9ad;
+  padding: 4rem;
+}
