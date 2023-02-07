@@ -51,7 +51,7 @@ img {
 }
   
 ul {
-  background-color: #d4c9ad;
+  background-color: #172a38;
   top: 0;
   display:flex;
   grid-column: 1 /-1;
@@ -69,7 +69,7 @@ li {
 
 li a {
   display: block;
-  color: #172a38;
+  color: #f4f0e5;
   text-align: justify;
   padding: 14px 16px;
   text-decoration: none;
@@ -209,7 +209,7 @@ select{
   font-family: 'Poppins', sans-serif;
   color: #f4f0e5;
   font-size: 3rem;
-  background-color:#890705;
+  background-color:#172a38;
   margin: 2rem;
   width: 16rem;
   border: none;
@@ -217,13 +217,20 @@ select{
 
 }
 
-.comentario{
-  margin: 2rem
+.boton:hover{
+    background-color: #172a38;
+    transform: scale(1.4);
 }
 
 .comentario{
-  color: #d4c9ad;
+  margin: 2rem;
+  color: #172a38;
 }
+
+hr{
+  color: #172a38
+}
+
 /*Footer*/
 
 .footer{
@@ -258,15 +265,14 @@ h6 a:hover:not(.active) {
 
 .fa {
   font-size: 30px;
- 
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
 }
 
 .fa:hover {
-    color: #d4c9ad;
-    transform: scale(1.4);
+    color: #53cbbf;
+    transform: scale(1.6);
 }
 
 .fa-facebook {
