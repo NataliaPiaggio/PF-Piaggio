@@ -32,7 +32,7 @@ img {
 
 .banner {
     grid-column: 1 /-1;
-    background-image: url('imagenes/banner1op.png');
+    background-image: url('../imagenes/banner1op.png');
     background-size: cover;
     background-position: bottom;
     padding: 3rem;
@@ -174,6 +174,13 @@ h4{
 }
 /*formulario*/
 
+.card{
+  padding: 30px 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border: none;
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)
+}
 form{
   text-align: center;
   font-family: 'Poppins', sans-serif;
