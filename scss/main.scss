@@ -25,10 +25,21 @@ html{
             text-align: center;
             font-family: $font-titulo;
             color: $color-titulo;
-            font-size: 15rem;
+            font-size: 13rem;
             text-shadow: 2px 3px $color-beige ;
             margin-bottom: 3rem;
         }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 9rem;
+            }
+            .banner {
+                grid-column: 1 /-1;
+                background-image: url('../imagenes/banner1op.png');
+                background-size: cover;
+                background-position: bottom;
+            }
+          }
         h2{
             text-align: center;
             font-family: $font;

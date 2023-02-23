@@ -14,9 +14,17 @@ html {
       text-align: center;
       font-family: "Abel", sans-serif;
       color: #500301;
-      font-size: 15rem;
+      font-size: 13rem;
       text-shadow: 2px 3px #d4c9ad;
       margin-bottom: 3rem; }
+    @media (max-width: 600px) {
+      html body h1 {
+        font-size: 9rem; }
+      html body .banner {
+        grid-column: 1 /-1;
+        background-image: url("../imagenes/banner1op.png");
+        background-size: cover;
+        background-position: bottom; } }
     html body h2 {
       text-align: center;
       font-family: "Poppins", sans-serif;
