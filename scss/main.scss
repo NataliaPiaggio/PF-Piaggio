@@ -52,12 +52,6 @@ html{
                 padding: 14px 16px;
                 text-decoration: none;
                 background-color: $color-fondo;
-
-                a:hover:not(.active){
-                    background-color: $color-bordo;
-                    color: $color-beige;
-                    font-weight: bold;     
-                }
             }
         }
         p{

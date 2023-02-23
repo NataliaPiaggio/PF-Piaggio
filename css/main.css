@@ -38,10 +38,6 @@ html {
         padding: 14px 16px;
         text-decoration: none;
         background-color: #0b151b; }
-        html body h6 a a:hover:not(.active) {
-          background-color: #890705;
-          color: #d4c9ad;
-          font-weight: bold; }
     html body p {
       text-align: start;
       font-family: "Poppins", sans-serif;
@@ -103,6 +99,11 @@ html {
   margin-top: 6rem;
   padding-bottom: 4rem;
 }
+
+h6 a:hover:not(.active) {
+  background-color: #890705;
+  color: #d4c9ad;
+  font-weight: bold; }
  
 /*IndeX*/
 
@@ -164,8 +165,9 @@ html {
 .input {
   background-color: #d4c9ad;
   margin: 1.5rem;
-  width: 30rem;
-  height: 3rem;
+  width: 35rem;
+  height: 4rem;
+  align-items: center;
 }
 
 .titulo-pagina{
@@ -177,14 +179,13 @@ html {
   margin-bottom: 3rem;
 }
 
-select{
-  background-color: #d4c9ad;
-  margin: 1.5rem;
-  width: 30rem;
-  height: 4rem;
-}
 .radio{
   margin: 1rem;
+ 
+}
+
+.form-bg{
+  padding-left: 20rem;
 }
 
 .boton{
