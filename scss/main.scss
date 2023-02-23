@@ -1,0 +1,81 @@
+//variables 
+$color-bordo: #890705;
+$color-blanco:#f4f0e5;
+$color-fondo: #0b151b;
+$color-azul: #172a38; 
+$color-beige: #d4c9ad;
+$font: 'Poppins', sans-serif;
+
+html{
+    font-size: 62.5%;
+
+    body{
+        font-family: $font;
+        color: $color-blanco;
+        background-color: $color-fondo;
+
+        h4{
+            color: $color-bordo;
+            font-family: $font;
+            font-weight: bold;
+            font-size: 3rem;
+            padding-left: 8rem;
+            text-shadow: 2px 3px $color-blanco;  
+        }
+        h3{
+            text-decoration: underline;
+            font-family: $font;
+            margin: 2rem;
+            color: $color-beige;
+            }
+        h2{
+            text-align: center;
+            font-family: $font;
+            color:$color-beige ;
+            font-size: 3rem;
+            margin: 2rem;
+          }
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+        h6{
+            flex:1;
+            list-style: none;
+            font-family: $font;
+            font-size: medium;
+            text-align: center;
+            a{
+                display: block;
+                color: $color-beige;
+                text-align: justify;
+                padding: 14px 16px;
+                text-decoration: none;
+                background-color: $color-fondo;
+
+                a:hover:not(.active){
+                    background-color: $color-bordo;
+                    color: $color-beige;
+                    font-weight: bold;     
+                }
+            }
+        }
+        p{
+            text-align:start;
+            font-family: $font;
+            font-size: 2rem;
+            padding-left: 8rem;
+            padding-right: 8rem;  
+        }
+        hr{
+            color: $color-azul
+        }
+
+        form{
+            text-align: center;
+            font-family: $font;
+            font-size: 2rem;
+            align-content: center;
+        }
+    }
+}
