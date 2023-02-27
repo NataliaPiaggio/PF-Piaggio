@@ -1,0 +1,16 @@
+html{
+    font-size: 62.5%;
+
+    body{
+        font-family: $font;
+        color: $color-blanco;
+        background-color: $color-fondo;
+        .row{
+            padding-top: 8%;
+        }
+        hr{
+            color: $color-azul
+        }
+    }
+        
+}

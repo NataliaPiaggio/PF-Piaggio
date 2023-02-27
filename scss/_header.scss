@@ -1,0 +1,74 @@
+$screen-sm-min: 600px;
+$screen-md-min: 960px;
+$screen-sm-max: 959px;
+$screen-md-max: 1279px;
+header{
+    h6{
+        flex:1;
+        list-style: none;
+        font-family: $font;
+        font-size: medium;
+        text-align: center;
+        a{
+            display: block;
+            color: $color-beige;
+            text-align: justify;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+    }
+    h1{
+        text-align: center;
+        font-family: $font-titulo;
+        color: $color-titulo;
+        font-size: 13rem;
+        text-shadow: 2px 3px $color-beige ;
+        margin-bottom: 3rem;
+    }
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .banner {
+        grid-column: 1 /-1;
+        background-image: url('../imagenes/banner1op.png');
+        background-size: cover;
+        background-position: bottom;
+        padding: 3rem;
+      }
+    .banner_title {
+        text-align: center;
+        color: $color-bordo;
+        font-size: 8vw;
+        padding: 6rem;
+        text-shadow: 2px 3px $color-blanco ;
+    }
+    @mixin sm {
+        @media screen and 
+        (min-width: #{$screen-sm-min}) and (max-width: #{$screen-sm-max}) {
+            h1 {
+                font-size: 9rem;
+            }
+            .banner {
+                grid-column: 1 /-1;
+                background-image: url('../imagenes/banner1op.png');
+                background-size: cover;
+                background-position: bottom;
+            }
+        }
+      }
+    @mixin md {
+        @media screen and 
+        (min-width: #{$screen-md-min}) and (max-width: #{$screen-md-max}) {
+            h1 {
+                font-size: 13rem;
+            }
+            .banner {
+                grid-column: 1 /-1;
+                background-image: url('../imagenes/banner1op.png');
+                background-size: cover;
+                background-position: bottom;
+            }
+        }
+      }
+}

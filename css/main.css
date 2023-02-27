@@ -1,201 +1,215 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Cairo:wght@800&family=La+Belle+Aurore&family=MonteCarlo&family=Oooh+Baby&family=Parisienne&family=Poppins:wght@600;900&family=Style+Script&display=swap");
+footer {
+  background-image: url("../imagenes/footer.jpg");
+  text-align: center;
+  background-size: cover;
+  background-position: bottom;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  padding-top: 5rem;
+  margin-top: 6rem;
+  padding-bottom: 4rem; }
+  footer h6 {
+    flex: 1;
+    list-style: none;
+    font-size: medium;
+    text-align: center; }
+    footer h6 a {
+      display: block;
+      color: #d4c9ad;
+      text-align: justify;
+      padding: 14px 16px;
+      text-decoration: none; }
+
+body main form {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  align-content: center; }
+  body main form .input {
+    background-color: #d4c9ad;
+    margin: 1.5rem;
+    width: 35rem;
+    height: 4rem;
+    align-items: center; }
+  body main form .radio {
+    margin: 1rem; }
+  body main form .boton {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #172a38;
+    font-size: 3rem;
+    background-color: #f4f0e5;
+    margin: 2rem;
+    width: 16rem;
+    border: rgba(212, 201, 173, 0.175);
+    padding: 1rem; }
+  body main form .boton:hover {
+    background-color: #890705;
+    transform: scale(1.3);
+    color: #d4c9ad; }
+  body main form .comentario {
+    margin: 2rem;
+    color: #0b151b; }
+
 html {
   font-size: 62.5%; }
   html body {
     font-family: "Poppins", sans-serif;
     color: #f4f0e5;
-    background-color: #0b151b;
-    /*Titulos*/
-    /*banner y barranav*/
-    /*index*/
-    /*hover imagenes*/
-    /*Formulario*/ }
-    html body h1 {
-      text-align: center;
-      font-family: "Abel", sans-serif;
-      color: #500301;
-      font-size: 13rem;
-      text-shadow: 2px 3px #d4c9ad;
-      margin-bottom: 3rem; }
-    @media (max-width: 600px) {
-      html body h1 {
-        font-size: 9rem; }
-      html body .banner {
-        grid-column: 1 /-1;
-        background-image: url("../imagenes/banner1op.png");
-        background-size: cover;
-        background-position: bottom; } }
-    html body h2 {
-      text-align: center;
-      font-family: "Poppins", sans-serif;
-      color: #d4c9ad;
-      font-size: 3rem;
-      margin: 2rem; }
-    html body h3 {
-      text-decoration: underline;
-      font-family: "Poppins", sans-serif;
-      margin: 2rem;
-      color: #d4c9ad; }
-    html body h4 {
-      color: #890705;
-      font-family: "Poppins", sans-serif;
-      font-weight: bold;
-      font-size: 3.5rem;
-      padding-left: 4rem;
-      text-shadow: 2px 3px #f4f0e5; }
-    html body header h6 {
-      flex: 1;
-      list-style: none;
-      font-family: "Poppins", sans-serif;
-      font-size: medium;
-      text-align: center; }
-      html body header h6 a {
-        display: block;
-        color: #d4c9ad;
-        text-align: justify;
-        padding: 14px 16px;
-        text-decoration: none; }
-    html body img {
-      width: 100%;
-      object-fit: cover; }
-    html body .top-navbar {
-      background-color: #0b151b; }
-    html body .top-navbar:hover:not(.active) {
-      background-color: #890705;
-      color: #d4c9ad;
-      font-weight: bold; }
-    html body .bottom-navbar:hover:not(.active) {
-      background-color: #0b151b;
-      color: #d4c9ad;
-      font-weight: bold; }
-    html body .fa {
-      font-size: 4rem;
-      text-align: center;
-      text-decoration: none;
-      color: #890705;
-      background-color: none; }
-    html body .fa:hover {
-      color: #0b151b;
-      transform: scale(1.3);
-      background-color: none; }
-    html body .banner {
-      grid-column: 1 /-1;
-      background-image: url("../imagenes/banner1op.png");
-      background-size: cover;
-      background-position: bottom;
-      padding: 3rem; }
-    html body .banner_title {
-      text-align: center;
-      color: #890705;
-      font-size: 8vw;
-      padding: 6rem;
-      text-shadow: 2px 3px #f4f0e5; }
-    html body footer {
-      background-image: url("../imagenes/footer.jpg");
-      text-align: center;
-      background-size: cover;
-      background-position: bottom;
-      font-family: "Poppins", sans-serif;
-      font-size: 3rem;
-      padding-top: 5rem;
-      margin-top: 6rem;
-      padding-bottom: 4rem; }
-      html body footer h6 {
-        flex: 1;
-        list-style: none;
-        font-size: medium;
-        text-align: center; }
-        html body footer h6 a {
-          display: block;
-          color: #d4c9ad;
-          text-align: justify;
-          padding: 14px 16px;
-          text-decoration: none; }
-    html body .bottom-navbar {
-      background-color: #890705; }
+    background-color: #0b151b; }
     html body .row {
       padding-top: 8%; }
-    html body .text {
-      text-align: start;
-      font-family: "Poppins", sans-serif;
-      font-size: 2.5rem;
-      padding-left: 5%;
-      padding-right: 5%; }
-    html body .firma {
-      font-family: "La Belle Aurore", cursive;
-      font-size: 5rem;
-      text-align: right; }
-    html body .how-section1 {
-      margin-top: 15%;
-      padding: 10%; }
-    html body .how-section1 .row {
-      margin-top: 20%; }
-    html body .how-img {
-      text-align: center;
-      width: 50%;
-      padding-right: 5%;
-      padding-left: 5%; }
     html body hr {
       color: #172a38; }
-    html body .texto-imagen {
-      padding-left: 4rem;
-      padding-right: 4rem; }
-    html body .imagenes-publi {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: flex-start; }
-    html body .container-image {
-      position: relative; }
-    html body .overlay {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: #890705;
-      overflow: hidden;
-      width: 100%;
-      height: 0;
-      transition: .5s ease; }
-    html body .container-image:hover .overlay {
-      height: 100%; }
-    html body .text-imagenes {
-      color: #d4c9ad;
-      font-size: 2.5rem;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      text-align: justify; }
-    html body form {
-      text-align: center;
-      font-family: "Poppins", sans-serif;
-      font-size: 2rem;
-      align-content: center; }
-      html body form .input {
-        background-color: #d4c9ad;
-        margin: 1.5rem;
-        width: 35rem;
-        height: 4rem;
-        align-items: center; }
-      html body form .radio {
-        margin: 1rem; }
-      html body form .boton {
-        text-align: center;
-        font-family: "Poppins", sans-serif;
-        color: #172a38;
-        font-size: 3rem;
-        background-color: #f4f0e5;
-        margin: 2rem;
-        width: 16rem;
-        border: rgba(212, 201, 173, 0.175);
-        padding: 1rem; }
-      html body form .boton:hover {
-        background-color: #890705;
-        transform: scale(1.3);
-        color: #d4c9ad; }
-      html body form .comentario {
-        margin: 2rem;
-        color: #0b151b; }
+
+header h6 {
+  flex: 1;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+  text-align: center; }
+  header h6 a {
+    display: block;
+    color: #d4c9ad;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none; }
+
+header h1 {
+  text-align: center;
+  font-family: "Abel", sans-serif;
+  color: #500301;
+  font-size: 13rem;
+  text-shadow: 2px 3px #d4c9ad;
+  margin-bottom: 3rem; }
+
+header img {
+  width: 100%;
+  object-fit: cover; }
+
+header .banner {
+  grid-column: 1 /-1;
+  background-image: url("../imagenes/banner1op.png");
+  background-size: cover;
+  background-position: bottom;
+  padding: 3rem; }
+
+header .banner_title {
+  text-align: center;
+  color: #890705;
+  font-size: 8vw;
+  padding: 6rem;
+  text-shadow: 2px 3px #f4f0e5; }
+
+.imagenes-publi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start; }
+
+.container-image {
+  position: relative; }
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #890705;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease; }
+
+.container-image:hover .overlay {
+  height: 100%; }
+
+.text-imagenes {
+  color: #d4c9ad;
+  font-size: 2.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: justify; }
+
+.text {
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  padding-left: 5%;
+  padding-right: 5%; }
+
+.firma {
+  font-family: "La Belle Aurore", cursive;
+  font-size: 5rem;
+  text-align: right; }
+
+.how-section1 {
+  margin-top: 15%;
+  padding: 10%; }
+
+.how-section1 .row {
+  margin-top: 20%; }
+
+.how-img {
+  text-align: center;
+  width: 50%;
+  padding-right: 5%;
+  padding-left: 5%; }
+
+.texto-imagen {
+  padding-left: 4rem;
+  padding-right: 4rem; }
+
+.top-navbar {
+  background-color: #0b151b; }
+
+.top-navbar:hover:not(.active) {
+  background-color: #890705;
+  color: #d4c9ad;
+  font-weight: bold; }
+
+.bottom-navbar:hover:not(.active) {
+  background-color: #0b151b;
+  color: #d4c9ad;
+  font-weight: bold; }
+
+.fa {
+  font-size: 4rem;
+  text-align: center;
+  text-decoration: none;
+  color: #890705;
+  background-color: none; }
+
+.fa:hover {
+  color: #0b151b;
+  transform: scale(1.3);
+  background-color: none; }
+
+.bottom-navbar {
+  background-color: #890705; }
+
+body main h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #d4c9ad;
+  font-size: 3rem;
+  margin: 2rem; }
+
+body main h3 {
+  text-decoration: underline;
+  font-family: "Poppins", sans-serif;
+  margin: 2rem;
+  color: #d4c9ad; }
+
+body main h4 {
+  color: #890705;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  padding-left: 4rem;
+  text-shadow: 2px 3px #f4f0e5; }

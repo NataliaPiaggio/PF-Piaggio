@@ -1,0 +1,29 @@
+.text{
+    text-align:start;
+    font-family: $font;
+    font-size: 2.5rem;
+    padding-left: 5%;
+    padding-right: 5%;  
+}
+.firma{
+     font-family: $font-firma;
+     font-size: 5rem;
+     text-align: right;
+}
+.how-section1{
+    margin-top:15%;
+    padding: 10%;
+}
+.how-section1 .row{
+    margin-top: 20%;
+}
+.how-img {
+    text-align: center;
+    width: 50%;  
+    padding-right: 5%; 
+    padding-left: 5%; 
+}
+.texto-imagen{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}

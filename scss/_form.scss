@@ -1,0 +1,40 @@
+body{
+    main{
+        form{
+            text-align: center;
+            font-family: $font;
+            font-size: 2rem;
+            align-content: center;
+            .input {
+                background-color: $color-beige;
+                margin: 1.5rem;
+                width: 35rem;
+                height: 4rem;
+                align-items: center;
+            }
+            .radio{
+                margin: 1rem;
+            }
+            .boton{
+                text-align: center;
+                font-family: $font;
+                color: $color-azul;
+                font-size: 3rem;
+                background-color:$color-blanco;
+                margin: 2rem;
+                width: 16rem;
+                border:rgba($color-beige, .175);
+                padding: 1rem;
+            }
+            .boton:hover{
+                background-color: $color-bordo;
+                transform: scale(1.3);
+                color: $color-beige;
+            }
+            .comentario{
+                margin: 2rem;
+                color: $color-fondo;
+            }
+        }
+    }
+}
