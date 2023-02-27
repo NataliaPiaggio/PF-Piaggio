@@ -5,12 +5,13 @@ html{
         font-family: $font;
         color: $color-blanco;
         background-color: $color-fondo;
-        .row{
-            padding-top: 8%;
-        }
+        
         hr{
             color: $color-azul
         }
     }
         
+}
+.row{
+    padding-top: 8%;
 }
