@@ -1,4 +1,7 @@
+@import "mixin";
+
 footer{
+    @include navbar-button;
     background-image: url('../imagenes/footer.jpg');
     text-align: center;
     background-size: cover;
@@ -8,17 +11,4 @@ footer{
     padding-top: 5rem;
     margin-top: 6rem;
     padding-bottom: 4rem;
-    h6{
-        flex:1;
-        list-style: none;
-        font-size: medium;
-        text-align: center;
-        a{
-            display: block;
-            color: $color-beige;
-            text-align: justify;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-    }
 }
