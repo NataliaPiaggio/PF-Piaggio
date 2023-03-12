@@ -28,14 +28,37 @@ form {
   font-size: 2rem;
   align-content: center; }
   form .input {
+    width: 60%;
+    min-width: 220px;
     background-color: #d4c9ad;
-    margin: 1.5rem;
-    width: 35rem;
+    margin: 2rem;
     height: 4rem;
     align-items: center; }
-  form .radio {
-    margin: 1rem; }
-  form .boton {
+  form label {
+    width: 60%;
+    min-width: 220px;
+    align-items: center;
+    width: 15rem; }
+  form li {
+    list-style: none; }
+  form .form-group {
+    display: block;
+    margin: 1.5rem 0;
+    width: 100%; }
+    form .form-group .mensaje {
+      width: 100%; }
+  form textarea {
+    width: 60%;
+    min-width: 220px;
+    align-content: center; }
+  form select {
+    width: 60%;
+    min-width: 220px; }
+  form .opciones .provincias .mensaje {
+    margin: 1rem;
+    display: block;
+    padding: 2rem; }
+  form .btn {
     text-align: center;
     font-family: "Poppins", sans-serif;
     color: #172a38;
@@ -45,7 +68,7 @@ form {
     width: 16rem;
     border: rgba(212, 201, 173, 0.175);
     padding: 1rem; }
-  form .boton:hover {
+  form .btn:hover {
     background-color: #890705;
     transform: scale(1.3);
     color: #d4c9ad; }
@@ -181,13 +204,13 @@ header .banner_title {
   background-color: #0b151b; }
 
 .top-navbar:hover:not(.active) {
-  background-color: #890705;
   color: #d4c9ad;
+  background-color: #890705;
   font-weight: bold; }
 
 .bottom-navbar:hover:not(.active) {
-  background-color: #0b151b;
   color: #d4c9ad;
+  background-color: #0b151b;
   font-weight: bold; }
 
 .fa {

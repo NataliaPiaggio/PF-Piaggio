@@ -1,0 +1,26 @@
+@mixin navbar-button {
+  h6 {
+    flex: 1;
+    list-style: none;
+    font-family: $font;
+    font-size: small;
+    text-align: center;
+
+    a {
+      display: block;
+      color: $color-beige;
+      text-align: justify;
+      padding: 12px;
+      text-decoration: none;
+    }
+  }
+}
+@mixin form-width{
+  width: 60%;
+  min-width: 220px;
+}
+@mixin bgancolor($color, $backgroundColor) {
+  color: $color;
+  background-color: $backgroundColor;
+  font-weight: bold;
+}

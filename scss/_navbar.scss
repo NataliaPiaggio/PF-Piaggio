@@ -2,14 +2,10 @@
     background-color: $color-fondo;
 }
 .top-navbar:hover:not(.active) {
-    background-color: $color-bordo;
-    color: $color-beige;
-    font-weight: bold; 
+    @include bgancolor($color-beige, $color-bordo)
 }
 .bottom-navbar:hover:not(.active) {
-    background-color: $color-fondo;
-    color: $color-beige;
-    font-weight: bold; 
+    @include bgancolor($color-beige, $color-fondo)
 }
 .fa {
     font-size: 4rem;

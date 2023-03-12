@@ -16,46 +16,45 @@
     <div class="banner">
     <h1>TANGO DIFUSION</h1>
     <div class="container">
-      <section class="mt-5">
+      <nav class="mt-5">
             <div class="row text-center d-flex justify-content-center pt-5">
-              <div class="col-md-1">
-                <h6 class="fa">
-                  <a href="https://www.instagram.com/silviaytonytango/?hl=es-la" class="fa fa-instagram" target="_blank"></a>
-                </h6>
-              </div>
-              <div class="col-md-2">
-                <h6 class="top-navbar">
-                  <a href="../index.html" class="text-center">Home</a>
-                </h6>
-              </div>
-              <div class="col-md-2">
-                <h6 class="top-navbar">
-                  <a href="./milonga.html" class="text-center">Milonga</a>
-                </h6>
-              </div>
-              <div class="col-md-2">
-                <h6 class="top-navbar">
-                  <a href="./clase.html" class="text-center">Clases</a>
-                </h6>
-              </div>
-              <div class="col-md-2">
-                <h6 class="top-navbar">
-                  <a href="./indumentaria.html" class="text-center">Indumentaria</a>
-                </h6>
-              </div>
-              <div class="col-md-2">
-                <h6 class="top-navbar">
-                  <a href="./contacto.html" class="text-center">Contacto</a>
-                </h6>
-              </div>
-              <div class="col-md-1">
-                <h6 class="fa">
-                  <a href="https://www.facebook.com/search/top?q=silvia%20y%20tony%20tango" target="_blank" class="fa fa-facebook"></a>
-                </h6>
+                <div class="col-md-1">
+                  <a href="https://www.instagram.com/silviaytonytango/?hl=es-la" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                  </a>
                 </div>
-              </div>
+                <div class="col-md-2">
+                  <h6 class="top-navbar">
+                    <a href="../index.html" class="text-center">Home</a>
+                  </h6>
+                </div>
+                <div class="col-md-2">
+                  <h6 class="top-navbar">
+                    <a href="./milonga.html" class="text-center">Milonga</a>
+                  </h6>
+                </div>
+                <div class="col-md-2">
+                  <h6 class="top-navbar">
+                    <a href="./clase.html" class="text-center">Clases</a>
+                  </h6>
+                </div>
+                <div class="col-md-2">
+                  <h6 class="top-navbar">
+                    <a href="./indumentaria.html" class="text-center">Indumentaria</a>
+                  </h6>
+                </div>
+                <div class="col-md-2">
+                  <h6 class="top-navbar">
+                    <a href="./contacto.html" class="text-center">Contacto</a>
+                  </h6>
+                </div>
+                <div class="col-md-1">
+                  <a href="https://www.facebook.com/search/top?q=silvia%20y%20tony%20tango" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </div>
             </div>
-      </section> 
+      </nav>
     </div>
   </header>
     <main>
@@ -75,53 +74,62 @@
                               </div>
                               <div class="form-group">
                                   <label for="telefono">Telefono:</label>
-                                  <textarea class="input" type="number" id="telefono" name="telefono"></textarea>
+                                  <input class="input" type="telefono" id="telefono" name="telefono"></input>
                               </div>
+                            <ul class="opciones">
                               <h4>Intereses:</h4>
-                                  <input class="radio " type="radio" id="milonga" name="milonga" value="milonga">
-                                  <label for="milonga "> Milonga</label><br>
-                                  <input class="radio" type="radio" id="clases" name="clase" value="clases">
-                                  <label for="clase"> Clases</label><br>
-                                  <input class="radio" type="radio" id="orquesta" name="orquesta" value="orquesta">
-                                  <label for="orquesta">Orquestas</label><br>
-                                  <input class="radio" type="radio" id="indumentaria" name="indumentaria" value="indumentaria">
-                                  <label for="indumentaria">Indumentaria</label><br>
+                                  <li> <input class="checkbox" type="checkbox" id="milonga" name="milonga" value="milonga">
+                                    <label for="milonga "> Milonga</label>
+                                  </li>
+                                  <li> <input class="checkbox" type="checkbox" id="clases" name="clase" value="clases">
+                                    <label for="clase"> Clases</label>
+                                  </li>
+                                  <li><input class="checkbox" type="checkbox" id="orquesta" name="orquesta" value="orquesta">
+                                    <label for="orquesta">Orquestas</label>
+                                  </li>
+                                  <li>
+                                    <input class="checkbox" type="checkbox" id="indumentaria" name="indumentaria" value="indumentaria">
+                                    <label for="indumentaria">Indumentaria</label>
+                                  </li>
+                            </ul>
                                   <hr>
+                            <div class="provincias">
                               <h4>Ubicación:</h4>
                                 <label for="provincia">Provincias
-                                  <select id="provincia" name="provincia">
-                                    <option value="1">BUENOS AIRES</option>
-                                    <option value="2">CATAMARCA</option>
-                                    <option value="5">CHACO</option>
-                                    <option value="6">CHUBUT</option>
-                                    <option value="50">CIUDAD AUTONOMA DE Bs As</option>
-                                    <option value="3">CORDOBA</option>
-                                    <option value="4">CORRIENTES</option>
-                                    <option value="7">ENTRE RIOS</option>
-                                    <option value="8">FORMOSA</option>
-                                    <option value="9">JUJUY</option>
-                                    <option value="10">LA PAMPA</option>
-                                    <option value="11">LA RIOJA</option>
-                                    <option value="12">MENDOZA</option>
-                                    <option value="13">MISIONES</option>
-                                    <option value="14">NEUQUEN</option>
-                                    <option value="15">RIO NEGRO</option>
-                                    <option value="16">SALTA</option>
-                                    <option value="17">SAN LUIS</option>
-                                    <option value="19">SANTA CRUZ</option>
-                                    <option value="20">SANTA FE</option>
-                                    <option value="21">SANTIAGO DEL ESTERO</option>
-                                    <option value="22">TIERRA DEL FUEGO</option>
-                                    <option disabled="true" selected="true" value="">Seleccionar una Provincia</option>
-                                  </select><br>
-                                </label>
-                                <hr>
-                                <div class="row">
-                                  <label for="mensaje">Mensaje:<br>
-                                    <textarea class="comentario" id="mensaje" name="mensaje" rows="7" cols="30"></textarea>
                                   </label>
+                                <select id="provincia" name="provincia">
+                                  <option value="1">BUENOS AIRES</option>
+                                  <option value="2">CATAMARCA</option>
+                                  <option value="5">CHACO</option>
+                                  <option value="6">CHUBUT</option>
+                                  <option value="50">CIUDAD AUTONOMA DE Bs As</option>
+                                  <option value="3">CORDOBA</option>
+                                  <option value="4">CORRIENTES</option>
+                                  <option value="7">ENTRE RIOS</option>
+                                  <option value="8">FORMOSA</option>
+                                  <option value="9">JUJUY</option>
+                                  <option value="10">LA PAMPA</option>
+                                  <option value="11">LA RIOJA</option>
+                                  <option value="12">MENDOZA</option>
+                                  <option value="13">MISIONES</option>
+                                  <option value="14">NEUQUEN</option>
+                                  <option value="15">RIO NEGRO</option>
+                                  <option value="16">SALTA</option>
+                                  <option value="17">SAN LUIS</option>
+                                  <option value="19">SANTA CRUZ</option>
+                                  <option value="20">SANTA FE</option>
+                                  <option value="21">SANTIAGO DEL ESTERO</option>
+                                  <option value="22">TIERRA DEL FUEGO</option>
+                                  <option disabled="true" selected="true" value="">Seleccionar una Provincia</option>
+                                </select>
+                                </div>
+                                <hr>
+                                <div class="form-group">
+                                  <label class="mensaje" for="mensaje">Mensaje:
+                                  </label>
+                                  <textarea class="comentario" id="mensaje" name="mensaje" rows="7" cols="30"></textarea>
                                   </div>
-                              <button type="submit" class="btn text-center btn-blue">Enviar</button>
+                              <button type="submit" class="btn text-center">Enviar</button>
                           </form>
                       </div>
                   </div>
@@ -160,14 +168,14 @@
                         </h6>
                       </div>
                       <div class="col-md-1">
-                        <h6 class="fa">
-                          <a href="https://www.instagram.com/silviaytonytango/?hl=es-la" class="fa fa-instagram" target="_blank"></a>
-                        </h6>
+                        <a href="https://www.instagram.com/silviaytonytango/?hl=es-la" target="_blank">
+                          <i class="fa fa-instagram"></i>
+                        </a>
                       </div>
                       <div class="col-md-1">
-                        <h6 class="fa">
-                          <a href="https://www.facebook.com/search/top?q=silvia%20y%20tony%20tango" target="_blank" class="fa fa-facebook"></a>
-                        </h6>
+                        <a href="https://www.facebook.com/search/top?q=silvia%20y%20tony%20tango" target="_blank">
+                          <i class="fa fa-facebook"></i>
+                        </a>
                       </div>
                   </div>
               </section>
